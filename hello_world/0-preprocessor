@@ -1,2 +1,2 @@
 #!/bin/bash
-cpp "$1" "$2"
+cpp "$CFILE" c
