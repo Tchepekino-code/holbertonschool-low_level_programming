@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-printf("_putcha\n");
+printf("_putchar\n");
 
 return (0);
 }
