@@ -1,5 +1,6 @@
-#include <stdio.h>
+#define MAIN_H
+#define MAIN_H
 
-void printputchar(){
-printf("_putchar\n");
-} 
+int _putchar(char c);
+
+#endif
