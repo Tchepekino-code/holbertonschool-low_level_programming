@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include <main.h>
+
 /**
  * main - Entry point
  *
@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-printputchar;
+printf("_putcha\n");
 
- return (0);
+return (0);
 }
