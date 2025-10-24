@@ -1,11 +1,10 @@
 #include "main.h"
 
 /**
- * main - Entry point
+ * main
  *
- * Return: Always 0 (Success)
+ * print alphabet
  */
-
 void print_alphabet(void)
 {
 char c = 'a';
