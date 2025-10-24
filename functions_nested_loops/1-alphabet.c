@@ -1,6 +1,6 @@
 #include "main.h"
 
-char *message print_alphabet(void)
+void print_alphabet(void)
 {
 char c = 'a';
 for (c = 'a'; c <= 'z'; c++)
