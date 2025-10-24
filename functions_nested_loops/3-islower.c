@@ -8,3 +8,4 @@ int int_islower(int c)
   else {
     return 0;
       }
+}
