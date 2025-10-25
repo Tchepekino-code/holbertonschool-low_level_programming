@@ -1,5 +1,4 @@
 #include "main.h"
-#include <stdio.h>
 
 void jack_bauer(void)
 {
@@ -11,7 +10,12 @@ for (h = 0; h < 24; h++)
 {
 for (m = 0; m < 60; m++)
 {
-printf("%02d:%02d\n", h, m);
+_putchar((h / 10) + '0');
+_putchar((h % 10) + '0');
+_putchar(':');
+_putchar((m / 10) + '0');
+_putchar((m % 10) + '0');
+_putchar('\n');
 }
 }
 }
