@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _abs - compute the absolute value of an integer
- * @r: The character to check
+ * _abs - retourne la valeur absolue d’un entier
+ * @i: l’entier dont on veut la valeur absolue
  *
- * Return: absolute value
+ * Return: la valeur absolue de i
  */
 int _abs(int i)
 {
