@@ -12,7 +12,7 @@ int L = i % 10;
 if (L < 0)
 {
 L = -L;
-_putchar(L + '0');
-} 
+}
+_putchar(L + '0'); 
 return (L);
 }  
