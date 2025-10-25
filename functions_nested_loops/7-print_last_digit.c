@@ -12,6 +12,7 @@ int L = i % 10;
 if (L >= 0)
 {
 return (L);
+} 
 else
 {
 return (-L);
