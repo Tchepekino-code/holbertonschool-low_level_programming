@@ -18,5 +18,6 @@ else
 return (-L);
 }
 _putchar(L + '0');
+_putchar(L + '0'); 
 }
   
