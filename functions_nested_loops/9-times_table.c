@@ -7,9 +7,9 @@ void times_table(void){
   int k;
   for (k = 0; k <= 9; k++)
     {
-    _putchar('0')
+      _putchar('0');
     _putchar(',');
-    -putchar(' '),
+    -putchar(' ');
       }
   _putchar('\n');
   for (i = 0; i <= 9; i++)
