@@ -8,13 +8,11 @@
  */
 int _abs(int)
 {
-int i;
 if (i >= 0)
- {
- _abs = i;
- }
- else {
- i = -i;
+{
+return i;
 }
- return (0);
+else {
+return -i;
+}
 }
