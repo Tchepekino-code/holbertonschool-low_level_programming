@@ -1,5 +1,14 @@
 #include "main.h"
 
+/**
+ * print_to_98 - prints all natural numbers from n to 98
+ * @n: starting number
+ *
+ * Description: Prints all numbers from n to 98, separated by a comma
+ * and a space, ending with a newline. Works for numbers less than,
+ * equal to, or greater than 98.
+ */
+
 void print_to_98(int n)
 {
 for (; n <= 97; n++)
