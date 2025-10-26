@@ -20,7 +20,7 @@ void print_to_98(int n)
       _putchar(',');
       _putchar(' ');
     }
-  for (n == 98)
-    _putchar('98');
+  for (n = 98)
+    _putchar(n + '0');
 }
 
