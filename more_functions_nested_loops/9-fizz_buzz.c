@@ -8,27 +8,27 @@
 
 int main(void)
 {
-  int n;
+int n;
   
-  for (n = 1; n <= 100; n++){ 
-
-  if (n % 3 == 0)
-    {
-      printf("Fizz ");
-      continue;
-	}
-  if (n % 5 == 0)
-    {
-      printf("Buzz ");
-      continue;
-    }
-  if (( n % 3 == 0) && (n % 5 == 0))
-    {
-      printf("FizzBuzz ");
-      continue;
-    }
-  printf("%d ", n);
-  }
-  printf("\n");
-  return (0);
+for (n = 1; n <= 100; n++)
+{
+if (( n % 3 == 0) && (n % 5 == 0))
+{
+printf("FizzBuzz ");
+continue;
+}
+if (n % 3 == 0)
+{
+printf("Fizz ");
+continue;
+}
+if (n % 5 == 0)
+{
+printf("Buzz ");
+continue;
+}
+printf("%d ", n);
+}
+printf("\n");
+return (0);
 }
