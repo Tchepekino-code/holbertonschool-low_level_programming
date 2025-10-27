@@ -1,9 +1,8 @@
-#include "main.h"
 #include <stdio.h>
 
 /**
- * fizz_buzz -tu fizz et tu buzz
- *
+ * main -fizz_buzz -tu fizz et tu buzz
+ * return void
  */
 
 int main(void)
@@ -14,20 +13,22 @@ for (n = 1; n <= 100; n++)
 {
 if (( n % 3 == 0) && (n % 5 == 0))
 {
-printf("FizzBuzz ");
+printf("FizzBuzz");
 continue;
 }
 if (n % 3 == 0)
 {
-printf("Fizz ");
+printf("Fizz");
 continue;
 }
 if (n % 5 == 0)
 {
-printf("Buzz ");
+printf("Buzz");
 continue;
 }
-printf("%d ", n);
+printf("%d", n);
+if (n < 100)
+printf(" ");
 }
 printf("\n");
 return (0);
