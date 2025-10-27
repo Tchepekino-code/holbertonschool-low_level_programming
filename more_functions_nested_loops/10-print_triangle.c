@@ -10,6 +10,8 @@ int n;
 int m;
  int a;
  int b;
+ a = size;
+ 
  if (size > 0)
    {
 
