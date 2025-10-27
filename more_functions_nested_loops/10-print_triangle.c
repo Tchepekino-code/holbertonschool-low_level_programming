@@ -6,18 +6,18 @@
  */
 void print_triangle(int size)
 {
-  int n;
-  int m;
+int n;
+int m;
   
-  if (size > 0){
-    for (n = (size - 1) ; n >= 0; n--)
+if (size > 0){
+  for (n = (size - 1) ; n >= 0; n--)
       {
       _putchar(' ');
-   
-    for (m = 0; m <= size; m++){
+   for (m = 0; m <= size; m++)
+     {
       _putchar('#');
-     _putchar('\n');
     }
+   _putchar('n');
       }
 
 
