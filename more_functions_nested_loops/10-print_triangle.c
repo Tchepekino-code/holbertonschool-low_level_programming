@@ -10,6 +10,8 @@ int n;
 int m;
  int a;
  int b;
+ if (size > 0)
+   {
 
  while ((a >= 0) && b <= (size))
    {
@@ -25,5 +27,8 @@ int m;
  a--;
  b++;
 }
+   }
+ else
+   _putchar('\n');
 
 }
