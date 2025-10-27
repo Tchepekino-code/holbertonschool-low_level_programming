@@ -12,14 +12,15 @@ if (n > 0 )
 {
  
 for (i = 0; i < n; i++){
-_putchar(92);
-_putchar('\n');
 
-while (j < i)
+ while (j < i)
 {
 j++;
 _putchar(' ');
-}
+ }
+_putchar(92);
+_putchar('\n');
+
 }
 }
 
