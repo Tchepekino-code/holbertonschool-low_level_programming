@@ -10,10 +10,11 @@ int i;
 int j;
 if (n != 0)
 {
-for (i = 1; i < n; i++)
+for (i = 0; i < n; i++)
 _putchar(92);
-_putchar('\n');
+
 for (j = 1; j < n; j++)
+_putchar('\n');
 _putchar(' ');
 } 
 else
