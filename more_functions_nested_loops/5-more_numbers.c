@@ -11,10 +11,8 @@ int i, j;
 for (j = 0; j < 10; j++){
 for (i =0 ; i <= 14; i++)
 {
-  for (; (i / 10) == 0; ){
-    continue;
+if (i >= 10)
 _putchar((i / 10) + '0');
-  }
 _putchar((i % 10) + '0');
 }
 _putchar('\n');
