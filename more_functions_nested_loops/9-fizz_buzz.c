@@ -1,10 +1,11 @@
 #include <stdio.h>
 
 /**
- * main -fizz_buzz -tu fizz et tu buzz
- * return void
+ * main - prints numbers from 1 to 100, replacing multiples of 3 and/or 5
+ *         with "Fizz", "Buzz", or "FizzBuzz"
+ *
+ * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 int n;
