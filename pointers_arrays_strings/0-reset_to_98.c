@@ -1,9 +1,11 @@
 #include "main.h"
 
 /**
- * _isupper - Vérifie si un caractère est une lettre majuscule
- * @*n:  parameter and updates the value it points to to 98
+ * reset_to_98 - met la valeur de l'entier pointé par n à 98
+ * @n: pointeur vers un entier à modifier
  *
+ * Cette fonction prend un pointeur vers un entier et
+ * modifie la valeur de cet entier pour la mettre à 98.
  */
 void reset_to_98(int *n)
 {
