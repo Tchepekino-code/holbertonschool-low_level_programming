@@ -12,6 +12,5 @@ while (str[c] != '\0'){
 _putchar(str[c]);
 c++;
 }
-
-
+ _putchar('\n')
 }
