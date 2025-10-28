@@ -1,10 +1,12 @@
 #include "main.h"
 
 /**
- * swap - swaps the values of two integers.
- * @n: pointeur vers un entier à modifier
+ * swap_int - échange les valeurs de deux entiers
+ * @a: pointeur vers le premier entier
+ * @b: pointeur vers le second entier
  *
- * function that swaps the values of two integers.
+ * Cette fonction échange les valeurs des deux entiers pointés
+ * par a et b.
  */
 void swap_int(int *a, int *b)
 {
