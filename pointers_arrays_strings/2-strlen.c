@@ -1,10 +1,10 @@
 #include "main.h"
 
 /**
- * _strlen - return the lenght of a string
- * @*s:pointeur vers le string
+ * _strlen - retourne la longueur d'une chaîne de caractères
+ * @s: pointeur vers la chaîne dont on veut connaître la longueur
  *
- * return - Cette fonction nous donne la longueur du string
+ * Return: la longueur de la chaîne (nombre de caractères avant '\0')
  */
 int _strlen(char *s)
 {
