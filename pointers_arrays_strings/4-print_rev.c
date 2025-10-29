@@ -2,31 +2,21 @@
 
 /**
  * print_rev - retourne la longueur d'une chaîne de caractères
- * @s: pointeur vers la chaîne qu'on veut reverse
- *
+ * @s: pointeur vers la chaîne qu'on veut revers.*
  */
 void print_rev(char *s)
 {
-int b = 0;
-int e = 0;
-int tmp;
-int i;
+    int len = 0;
 
-	while (s[b] != '\0')
-		{
-  			tmp = s[b];
-			b++;
-		
-	while (s[e] != '\0')
-	
-		{
-			e--;
-			s[b] = s[e];
-			s[e] = tmp;
-			e--;
-		}
-		}
-for (i = 0; s[i] != ('\0'); i++)
-_putchar(s[i]);
-_putchar('\n');
+   
+    while (s[len] != '\0')
+        len++;
+
+    while (len > 0)
+    {
+        len--;
+        _putchar(s[len]);
+    }
+
+    _putchar('\n');
 }
