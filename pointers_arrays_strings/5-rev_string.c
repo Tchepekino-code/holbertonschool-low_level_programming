@@ -14,7 +14,8 @@ char tmp;
 while (s[l] != 0)
 l++;
 l--;
-while (l > i){
+while (l > i)
+{
 tmp = s[i];
 s[i] = s[l];
 s[l] = tmp;
