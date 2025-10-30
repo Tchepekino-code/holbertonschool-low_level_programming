@@ -43,5 +43,5 @@ num = num * 10 + j;
 i++;
 }
 
-return (signe * num);
+return (signe *num);
 }
