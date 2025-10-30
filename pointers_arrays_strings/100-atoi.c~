@@ -1,0 +1,40 @@
+#include "main.h"
+
+/**
+ * _atoi - retourne la longueur d'une chaîne de caractères
+ * @s: pointeur vers la chaine de carateres
+ *
+ * Return: la chaine de caracteres convertie en entier.
+ */
+int _atoi(char *s)
+{
+  int total = 0;
+  int l;
+  int i = 0;
+  int signe = 0;
+  int j = 0;
+  
+  while (s[total] != '\0')
+    {
+      if (s[i] == '-')
+	signe +=1;
+      total +=1;
+    }
+  l = total - 1;
+
+  for (i = 0; i <= l; i++)
+    {
+      if (s[i] >= 48 && s[i] <= 57)
+	{
+	  s[j] = s[i];
+	  j+=1;
+	}
+      s[j] = '\0';
+	 }
+  if (j = 0)
+    return (0)
+  else if (signe % 2 == 0)
+    return (s);
+  else
+    return(-s);
+}
