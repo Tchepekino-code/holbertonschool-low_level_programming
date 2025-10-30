@@ -28,7 +28,7 @@ while (s[i] >= '0' && s[i] <= '9')
 {
 j = s[i] - '0';
 
-if (sign == 1)
+if (signe == 1)
 {
 if (num > (2147483647 - j) / 10)
 return 2147483647;
