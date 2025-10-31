@@ -1,0 +1,9 @@
+#include "main.h"
+
+/**
+ * _strcat - retourne la longueur d'une chaîne de caractères
+ * @dest: string to append
+ * @src: destinated string
+ *
+ * Return: char, pointeur vers la resukt string dest
+ */
