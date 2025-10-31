@@ -15,9 +15,12 @@ while (*p != '\0')
 {
 p++;
 }
-while (*src && n--)
+while (*src != '\0' && n > 0)
 {
-*p++ = *src++;
+*p = *src;
+p++;
+src++;
+n--;
 }
 *p = '\0';
 return (dest);
