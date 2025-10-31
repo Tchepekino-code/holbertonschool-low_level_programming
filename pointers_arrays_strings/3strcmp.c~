@@ -1,0 +1,9 @@
+#include "main.h"
+
+/**
+ * _strcmp - function that compares two strings
+ * @s1: chaine 1
+ * @s2: chaine 2
+ *
+ * Return: 15 si s1 > s2 0 si egal sinon -15
+ */
