@@ -22,7 +22,7 @@ i++;
 while (i < n)
 {
 *p++ = '\0';
-i++
+i++;
 }
 return (dest);
 }
