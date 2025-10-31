@@ -18,5 +18,8 @@ char *_strncpy(char *dest, char *src, int n)
       p++;
       src++;
 }
+  while (n-- > 0)
+    *p++ = '\0';
+  
     return (dest);
     }
