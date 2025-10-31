@@ -10,17 +10,19 @@
  */
 char *_strncpy(char *dest, char *src, int n)
 {
-  char *p = dest;
+char *p = dest;
+int i = 0;
 
-  while (n-- > 0 && *src)
-    {
-      *p++ = *src++;
-    }
-  
-  while (n-- > 0)
-    {
-    *p++ = '\0';
-    }
-  
-    return (dest);
-    }
+while (i < n && *src)
+{
+*p++ = *src++;
+i++;
+}
+
+while (i < n)
+{
+*p++ = '\0';
+i++
+}
+return (dest);
+}
