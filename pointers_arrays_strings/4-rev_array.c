@@ -14,7 +14,7 @@ int i = 0;
 
 if (n > 0)
 {
-while(i != (n - 1))
+while (i != (n - 1))
 {
 tmp = a[i];
 a[i] = a[n - 1];
