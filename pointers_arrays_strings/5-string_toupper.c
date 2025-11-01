@@ -6,20 +6,20 @@
  *
  * Return: Uppercase string
  */
-char *string_toupper(char *)
+char *string_toupper(char *str)
 {
   int i;
   int tmp;
 
   for (i = 0; i != '\0'; i++)
     {
-      if (char[i] >= 97 && char [i] <= 122)
+      if (str[i] >= 97 && str[i] <= 122)
 	{
-	tmp = char[i];
-      char[i] = (tmp -26);
+	tmp = str[i];
+      str[i] = (tmp -32);
 	}
 	else
 	  continue;
     }
-  return (char);
+  return (str);
 }
