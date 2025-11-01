@@ -2,7 +2,7 @@
 
 /**
  * string_toupper -changes all lowercase letters of a string to uppercase.
- * @char: pointeur vers la chaîne 
+ * @char: pointeur vers la chaîne
  *
  * Return: Uppercase string
  */
