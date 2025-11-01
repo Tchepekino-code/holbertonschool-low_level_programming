@@ -1,10 +1,15 @@
 #include "main.h"
 
 /**
- * *cap_string(char *) - function that capitalizes all words of a string.
- * @s: chaine a capitaliser
+ * cap_string - capitalizes all words of a string
+ * @s: pointer to the string to modify
  *
- * Return: chaine capitalisée
+ * Return: pointer to the modified string
+ *
+ * Description: 
+ * Capitalizes the first letter of each word in the string.
+ * Words are separated by spaces, tabs, newlines, and the
+ * following characters: ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'.
  */
 char *cap_string(char *s)
 {
