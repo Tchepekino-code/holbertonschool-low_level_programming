@@ -6,7 +6,7 @@
  *
  * Return: pointer to the modified string
  *
- * Description: 
+ * Description:
  * Capitalizes the first letter of each word in the string.
  * Words are separated by spaces, tabs, newlines, and the
  * following characters: ',', ';', '.', '!', '?', '"', '(', ')', '{', '}'.
