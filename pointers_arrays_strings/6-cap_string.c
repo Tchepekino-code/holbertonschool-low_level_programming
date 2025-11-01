@@ -9,17 +9,24 @@
 char *cap_string(char *s)
 {
     int i = 0;
-    int j;
-    char sp[] = ",;.!?\"(){}";
+    char sep[] = " \t\n,;.!?\"(){}";
+
+    /* première lettre de la chaîne */
+    if (s[0] >= 'a' && s[0] <= 'z')
+        s[0] -= 32;
 
     while (s[i] != '\0')
     {
-        for (j = 0; sp[j] != '\0'; j++)
+        int j;
+
+        for (j = 0; sep[j] != '\0'; j++)
         {
-            if (s[i] == sp[j] && s[i + 2] >= 'a' && s[i + 2] <= 'z')
-                s[i + 2] -= 32;
+            /* si s[i] est un séparateur et s[i+1] est une minuscule */
+            if (s[i] == sep[j] && s[i + 1] >= 'a' && s[i + 1] <= 'z')
+                s[i + 1] -= 32;
         }
         i++;
     }
-    return (s);
+
+    return s;
 }
