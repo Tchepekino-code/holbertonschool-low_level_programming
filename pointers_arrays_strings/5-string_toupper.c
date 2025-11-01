@@ -9,8 +9,9 @@
 char *string_toupper(char *)
 {
   int i;
+  int tmp;
 
-  for (i = 0; i < '\0'; i++)
+  for (i = 0; i != '\0'; i++)
     {
       if (char[i] >= 97 && char [i] <= 122)
 	{
