@@ -6,11 +6,11 @@
  *
  * Return: chaine capitalisée
  */
-char *cap_string(char *str)
+char *cap_string(char *s)
 {
   int i = 0;
 
-  while ([si] != '\0')
+  while (s[i] != '\0')
     {
       if (s[i] = (44 || 59 || 46 || 33 || 63 || 34 || 40 || 41 || 123 ||125) && s[i+2] >= 'a' && s[i+2] <= 'z')
 	{
