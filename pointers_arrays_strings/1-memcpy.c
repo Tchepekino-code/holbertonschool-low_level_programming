@@ -14,8 +14,10 @@ unsigned int i;
 
 for (i = 0; i < n; i++)
     {
-        dest[i] = src[i];
+        *dest = *src;
+        dest++;
+        src++;
     }
-    return dest;
+    return dest -n;
 
 }
