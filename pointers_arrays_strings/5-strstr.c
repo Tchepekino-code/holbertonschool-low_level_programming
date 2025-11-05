@@ -25,5 +25,5 @@ for (i = 0; haystack[i] != '\0'; i++)
     if (needle[j] == '\0')
         return(&haystack[i]);
 }
-return (NULL);
+return (0);
 }
