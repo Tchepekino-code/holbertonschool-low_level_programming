@@ -4,20 +4,16 @@
  * _puts_recursion - prints a string followed by a newline
  * @s: pointer to the string to print
  *
- * Return: void
  */
 void _puts_recursion(char *s)
 {
 
-if (s[0] == '\0')
+if (!*s)
 {
-_putchar('\n');
-return ;
+    _putchar('\n');
+    return;
 }
 
-else 
-{
-_putchar(s[0]);
+_putchar(*s);
 _puts_recursion(s + 1);
-}
 }
