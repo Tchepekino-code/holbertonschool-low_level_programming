@@ -8,7 +8,7 @@ include "stdio.h"
  *
  * Return: void
  */
-void _print_diagsums(int *a, int size)
+void print_diagsums(int *a, int size)
 {
     int i;
     int sum1 = 0;
