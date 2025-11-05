@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h>
 
 /**
  * _atoi - retourne la longueur d'une chaîne de caractères
@@ -6,8 +7,6 @@
  *
  * Return: la chaine de caracteres convertie en entier.
  */
-#include <stdio.h>
-
 int _atoi(char *s)
 {
 int i = 0;
