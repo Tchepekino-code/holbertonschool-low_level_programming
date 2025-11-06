@@ -13,6 +13,9 @@ int is_helper_number(int n, int i)
 	if (n <= 1)
 	return (0);
 
+	if ( n % i != 0)
+	return (0);
+	
 	if (n % i == 0  && n != i)
 	return (0);
 
