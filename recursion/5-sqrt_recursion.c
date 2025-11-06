@@ -32,7 +32,7 @@ int _sqrt_helper(int n, int i)
 
 int _sqrt_recursion(int n)
 {
-	return (_sqrt_helper(n, o));
+	return (_sqrt_helper(n, 0));
 }
 	
 	
