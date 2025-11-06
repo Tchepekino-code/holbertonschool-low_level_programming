@@ -10,8 +10,9 @@
  */
 int is_helper_number(int n, int i)
 {
-   if (i > 0)
-   {
+	if (n <= 1)
+	return (0);
+
 	if (n % i == 0  && n != i)
 	return (0);
 
@@ -19,7 +20,6 @@ int is_helper_number(int n, int i)
 	return (1);
 
 	return (is_helper_number(n, i + 1));
-   }
 }
 
 /**
@@ -30,9 +30,7 @@ int is_helper_number(int n, int i)
  */
 int is_prime_number(int n)
 {
-	if (n < 1)
-	return (0);
-
+	
 	return (is_helper_number(n, 0));
 }
 
