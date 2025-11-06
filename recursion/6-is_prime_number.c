@@ -8,10 +8,13 @@
  *
  * Return: 1 si la condition est remplie, 0 sinon.
  */
-is_helper_number(int n, int i)
+int is_helper_number(int n, int i)
 {
    
-	if (n % i == 0)
+	if (n < 1)
+	return (0);
+
+	if (n % i == 0 && n != i)
 	return (0);
 
 	if (i == n)
@@ -28,8 +31,6 @@ is_helper_number(int n, int i)
  */
 int is_prime_number(int n)
 {
-	if (n < 1)
-	return (0);
 
 	return (is_helper_number(n, 0));
 }
