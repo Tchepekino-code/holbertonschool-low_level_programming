@@ -1,8 +1,8 @@
 # include "main.h"
 
 /**
- * _is_helper_number - Vérifie si un nombre répond à une condition spécifique
- *                     (ex : divisibilité, primalité, etc.) de manière récursive.
+ * _is_helper_number - Vérifie si un nombre répond à une condition S
+ * (ex : divisibilité, primalité, etc.) de manière récursive.
  * @n: Le nombre à tester.
  * @i: L'entier utilisé pour le test récursif (souvent commence à 2).
  *
@@ -10,7 +10,7 @@
  */
 int is_helper_number(int n, int i)
 {
-	if ( i * i > n)
+	if (i * i > n)
 	return (1);
 
 	if (n % i == 0)
