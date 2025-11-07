@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - multiplies two numbers
@@ -23,7 +24,8 @@ printf("%d\n", prd);
 
 else
 {
-	 printf("Error");
+	 printf("Error\n");
+	 return (1);
 }
 
 return (0);
