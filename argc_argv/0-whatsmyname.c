@@ -10,12 +10,7 @@
  */
 int main(int argc, char *argv[])
 {
-	char *name = strrchr(argv[0], '/');
-
-	if (name)
-		printf("%s\n", name + 1);
-	else
-		printf("%s\n", argv[0]);
+	printf("%s\n", argv[0]);
 
 	return (0);
 }
