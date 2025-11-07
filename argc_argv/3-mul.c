@@ -7,15 +7,24 @@
  *
  * Return: 0 on success, 1 on error
  */
-int main(int argc, int argv[])
+int main(int argc, char *argv[])
 {
-int sum = 0;
+int prd = 0;
+int a, b;
 
-if (argc = 3)
-sum = argv[1] + argv[2];
-printf("%d\n, sum");
+if (argc == 3)
+{
+a = atoi(argv[1]);
+b = atoi(argv[2]);
+prd = (a * b);
 
-else printf("Error");
+printf("%d\n", prd);
+}
+
+else
+{
+	 printf("Error");
+}
 
 return (0);
 }
