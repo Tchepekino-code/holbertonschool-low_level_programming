@@ -17,15 +17,15 @@ if (argc == 3)
 {
 a = atoi(argv[1]);
 b = atoi(argv[2]);
-prd = (a * b);
+prd = (a *b);
 
 printf("%d\n", prd);
 }
 
 else
 {
-	 printf("Error\n");
-	 return (1);
+	printf("Error\n");
+	return (1);
 }
 
 return (0);
